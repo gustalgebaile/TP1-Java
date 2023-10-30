@@ -16,7 +16,7 @@ public class JogoMedieval {
         System.out.println("Escolha sua classe de herói:");
         System.out.println("1. Guerreiro");
         System.out.println("2. Bárbaro");
-        System.out.println("3. Paladino");
+        System.out.println("3. Mago");
         int escolhaHeroi = scanner.nextInt();
 
         Personagem heroi = criarHeroi(escolhaHeroi, nomeJogador);
