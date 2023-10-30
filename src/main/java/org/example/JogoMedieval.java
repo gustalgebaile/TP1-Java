@@ -52,7 +52,11 @@ public class JogoMedieval {
             case 2:
                 return new Barbaro(nomeJogador);
             case 3:
+<<<<<<< HEAD
                 return new Paladino(nomeJogador);
+=======
+                return new Mago(nomeJogador);
+>>>>>>> 928acac (Initial commit)
             default:
                 throw new IllegalArgumentException("Escolha de herói inválida.");
         }
